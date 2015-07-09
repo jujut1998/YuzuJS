@@ -4,20 +4,22 @@ function log(text) {
 }
 
 // write a function `forEach` that takes 2 arguments
-function forEach(sports) {
+function forEach() {
 // 1) an array
-var sports = ["Football", "Soccer", "Basketball", "Volleyball", "Tennis", "Badminton"]
+var sports = ["Football", "Soccer", "Basketball", "Volleyball", "Tennis", "Badminton"];
 
-var i = 0;
-var len = sports.length;
-var text = "";
-for (; i < len; i++) {
-  text += sports[i] + "<br>";
+//       sports.forEach(function pop (sports) {
+//       log(sports);
+//       });
+// function getFor() {
+  var i = 0;
+  var len = sports.length;
+  var text = "";
+  for (; i < len; i++) {
+   log( text += sports[i] + "<br>");
+  }
 }
-
-});
-
-}
+// }
 
 // this function has the same behavior as the Array forEach method.
 
