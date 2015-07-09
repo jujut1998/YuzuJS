@@ -16,10 +16,11 @@ var sports = ["Football", "Soccer", "Basketball", "Volleyball", "Tennis", "Badmi
   var len = sports.length;
   var text = "";
   for (; i < len; i++) {
-  final= text += sports[i] + "<br>";
+  var final= text += sports[i] + "<br>";
+  log(final); 
   }
   
-  log(final);
+  
 }
 // }
 
