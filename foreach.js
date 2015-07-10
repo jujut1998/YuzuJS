@@ -5,9 +5,9 @@ function log(text) {
 
 var itemCall = function (array) {    
 	var text = "";
-	for (i=0; i < array.length; i++) { 
-    	text += "<br />" + array[i] + "<br />";
-	}
+		for (i=0; i < array.length; i++) { 
+	    	text += "<br />" + array[i] + "<br />";
+		}
 	return text;
 };
 // write a function `forEach` that takes 2 arguments
