@@ -1,5 +1,4 @@
 function log(text) {
-	debugger;
     var logEl = document.getElementById("log");
     logEl.innerHTML += text + "<br />";
 }
@@ -13,7 +12,7 @@ var itemCall = function (array) {
 };
 // write a function `forEach` that takes 2 arguments
 function forEach(array, itemCall) {
-    return itemCall(array);
+	return itemCall(array);
 }
   
 var sports = ["Football", "Soccer", "Basketball", "Volleyball", "Tennis", "Badminton"];
